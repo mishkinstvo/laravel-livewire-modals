@@ -20,7 +20,7 @@ class Modals extends Component
         $this->alias = $alias;
         $this->params = $params;
 
-        $this->emit('showBootstrapModal');
+        $this->dispatch('showBootstrapModal');
     }
 
     #[On('resetModal')]
