@@ -3,6 +3,7 @@
 namespace Bastinald\LaravelLivewireModals\Components;
 
 use Livewire\Component;
+use Livewire\Attributes\On;
 
 class Modals extends Component
 {
