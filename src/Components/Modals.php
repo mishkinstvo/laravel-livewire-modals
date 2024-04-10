@@ -9,13 +9,12 @@ class Modals extends Component
     public $alias;
     public $params = [];
 
-    protected $listeners = ['showModal', 'resetModal'];
-
     public function render()
     {
         return view('laravel-livewire-modals::modals');
     }
 
+    #[On('showModal')]
     public function showModal($alias, ...$params)
     {
         $this->alias = $alias;
@@ -24,6 +23,7 @@ class Modals extends Component
         $this->emit('showBootstrapModal');
     }
 
+    #[On('resetModal')]
     public function resetModal()
     {
         $this->reset();

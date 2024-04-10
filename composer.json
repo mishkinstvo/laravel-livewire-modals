@@ -1,6 +1,6 @@
 {
-    "name": "bastinald/laravel-livewire-modals",
-    "homepage": "https://github.com/bastinald/laravel-livewire-modals",
+    "name": "mishkinstvo/laravel-livewire-modals",
+    "homepage": "https://github.com/mishkinstvo/laravel-livewire-modals",
     "description": "Dynamic Laravel Livewire Bootstrap modals.",
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "laravel/framework": "^9.0",
-        "livewire/livewire": "^2.0"
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "livewire/livewire": "^3.0"
     },
     "autoload": {
         "psr-4": {
