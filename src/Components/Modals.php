@@ -16,7 +16,7 @@ class Modals extends Component
     }
 
     #[On('showModal')]
-    public function showModal($alias, $size = 'modal-lg', ...$params)
+    public function showModal($alias, $size = null, ...$params)
     {
         $this->alias = $alias;
         $this->size = $size;
